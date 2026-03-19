@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Usuario de prueba
-const users = [{ id: 1, name: 'Luis Felipe', email: 'admin@glam.com', password: '123' }];
+const users = [{ id: 1, name: 'Luis Felipe', email: 'admin@glam.com', password: 'glammakeup@1' }];
 
 // Ruta Login
 app.post('/api/auth/login', (req, res) => {
